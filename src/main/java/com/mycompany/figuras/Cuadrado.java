@@ -30,11 +30,11 @@ public class Cuadrado extends Figuras {
     }
 
     public void mostrar() {
-        System.out.println("Área del cuadrado: " + calcularArea());
+        System.out.println("area del cuadrado: " + calcularArea());
     }
 
         
     public void mostrar(String unidad) {
-        System.out.println("Área del cuadrado: " + calcularArea() + " " + unidad);
+        System.out.println("area del cuadrado: " + calcularArea() + " " + unidad);
     }
 }

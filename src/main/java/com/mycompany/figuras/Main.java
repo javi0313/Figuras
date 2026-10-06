@@ -16,8 +16,8 @@ public class Main {
          Figuras ci = new Circulo(5.0);
          Figuras cu = new Cuadrado(4.0);
          
-         System.out.println("Area del circulo: " + ci.calcularArea());
-         System.out.println("Area del cuadrado: " + cu.calcularArea());
+         ci.calcularArea();
+         cu.calcularArea();
          
          ci.mostrar();
          ci.mostrar("cm2");

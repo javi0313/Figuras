@@ -4,7 +4,7 @@ package com.mycompany.figuras;
 
 public class Circulo extends Figuras {
     private double radio;
-    private double pi = 3.1416;
+    private static double pi = 3.1416;
 
     
 
@@ -38,8 +38,8 @@ public class Circulo extends Figuras {
         System.out.println("Area del circulo:  " + calcularArea());
     }
     
-    public void mostrar(String unidades){
-        System.out.println("Area del circulo: " + calcularArea() + "" + "unidades" );
+    public void mostrar(String unidad){
+        System.out.println("Area del circulo: " + calcularArea() + " " + unidad );
     }
 
    

@@ -11,7 +11,7 @@ public abstract class Figuras {
    }
  
    public void mostrar(){
-       System.out.println("Esta figura es un");
+       System.out.println("");
    }
    
    public void mostrar(String unidades){
